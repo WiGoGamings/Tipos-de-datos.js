@@ -1,3 +1,8 @@
+const nombre = prompt("Ingresa tu nombre:");
+const apellido = prompt("Ingresa tu apellido:");
+alert("Hola " + nombre + " " + apellido + ", bienvenido a la clase de JavaScript --Introduccion--!");
+
+
 //Numeros
 console.log(typeof 42);      
 console.log(typeof -666);     
@@ -94,4 +99,14 @@ if (Temperatura < 0) {
     console.log("Hace buen Clima baby");
 } else {
     console.log("Hace calor, una playita?");
+}
+
+
+
+
+let eddad = 16;
+if (eddad >= 18) {
+    console.log("Eres mayor de edad viejo");
+} else {
+    console.log("Eres menor de edad enano");
 }
